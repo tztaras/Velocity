@@ -80,7 +80,7 @@ p {
 
 .welcome {
     color: whitesmoke;
-    min-height: 900px;
+    min-height: 600px;
     background-image: url('/img/velocity-bg.jpg');
     background-size: cover;
     background-position: center;
