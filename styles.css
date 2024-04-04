@@ -14,6 +14,32 @@ body {
     margin: 0 auto;
 }
 
+.title {
+    color: #676770;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+
+.subtitle {
+    color: #8E8E9C;
+    font-size: 17px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.common-section {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.title-wrapper {
+    margin: 0 10px 60px 10px;
+}
+
 p {
     color: #6A859C;
     line-height: 1.8;
@@ -161,21 +187,28 @@ p {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
+.hide {
+    display: none;
+}
 
 /* ABOUT
 ABOUT
 ABOUT */
 
-.about {}
+.about {
+    display: flex;
+    justify-content: center;
 
-.common-section {}
 
-.title-wrapper {}
+}
 
-.title {}
 
-.subtitle {}
 
-.cards-wrapper {}
+
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
 
 .card {}
