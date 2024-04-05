@@ -37,7 +37,7 @@ body {
 }
 
 .title-wrapper {
-    margin: 0 10px 60px 10px;
+    margin: 0 10px 60px;
 }
 
 p {
@@ -206,9 +206,33 @@ ABOUT */
 
 
 
-.cards-wrapper {
+.about .cards-wrapper {
     display: flex;
     justify-content: space-between;
+    width: 960px;
 }
 
-.card {}
+.about .card {
+    width: 290px;
+    padding: 36px 16px 25px;
+    border: 1px solid #DCEBF7;
+    border-radius: 5px;
+
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 7px;
+    color: #676770;
+    margin-bottom: 14px;
+
+}
+
+.about .card img {
+    width: 94px;
+    height: 94px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
