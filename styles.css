@@ -36,6 +36,29 @@ body {
     padding: 80px 0;
 }
 
+.common-section--dark {
+    background-color: #192024;
+    color: #ffff;
+}
+
+.common-section--dark .title {
+    color: #ffffff;
+}
+
+.common-section--dark .subtitle {
+    color: #E8E8E8;
+}
+
+.common-section--dark h4 {
+    color: #E8E8E8;
+}
+
+.common-section--dark p {
+    color: #E8E8E8;
+}
+
+
+
 .title-wrapper {
     margin: 0 10px 60px;
 }
@@ -125,7 +148,7 @@ p {
     text-transform: uppercase;
     text-align: center;
     padding: 195px 0;
-    ;
+
 
     background-image: url('/img/velocity-bg.jpg');
     background-color: #242730;
@@ -150,6 +173,7 @@ p {
     display: inline-block;
     /* height: 45px; */
     font-size: 16px;
+    text-transform: uppercase;
     letter-spacing: 2px;
     padding: 11px 31px;
     background-color: #69B9FF;
@@ -167,6 +191,7 @@ p {
 
 .link-more {
     display: inline-block;
+    text-transform: uppercase;
     /* height: 43px; */
     font-size: 16px;
     letter-spacing: 2px;
@@ -209,6 +234,7 @@ ABOUT */
 .about .cards-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     width: 960px;
 }
 
@@ -235,4 +261,19 @@ h4 {
     height: 94px;
     object-fit: contain;
     margin-bottom: 20px;
+}
+
+
+
+/* WHAT WE DO */
+/* WHAT WE DO */
+/* WHAT WE DO */
+
+/* .services {} */
+
+
+.services .cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+
 }
