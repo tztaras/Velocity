@@ -78,6 +78,7 @@ p {
     z-index: 100;
 
     background-color: aliceblue;
+    box-shadow: 0 0 2px rgb(207, 207, 207);
 
 
 }
@@ -276,4 +277,16 @@ h4 {
     display: flex;
     justify-content: space-between;
 
+}
+
+.services .card {
+    width: 45%;
+}
+
+.services .card img {
+    margin-bottom: 20px;
+}
+
+.services .link-more {
+    margin-top: 15px;
 }
