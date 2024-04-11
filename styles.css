@@ -236,15 +236,19 @@ ABOUT */
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    width: 960px;
+    /* width: 960px; */
 }
 
 .about .card {
-    width: 290px;
+    /* width: 290px; */
     padding: 36px 16px 25px;
     border: 1px solid #DCEBF7;
     border-radius: 5px;
 
+}
+
+.about .card+.card {
+    margin-left: 20px;
 }
 
 h4 {
