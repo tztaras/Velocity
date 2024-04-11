@@ -236,13 +236,13 @@ ABOUT */
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    /* flex-wrap: wrap; */
+
     /* width: 960px; */
 
 }
 
 .about .card {
-    width: 300px;
+    max-width: 300px;
     padding: 36px 16px 25px;
     margin: 0 10px;
     border: 1px solid #DCEBF7;
@@ -434,4 +434,15 @@ FOOTER */
 
 
 
-@media (max-width:960px) {}
+@media (max-width:960px) {
+    .about .cards-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        row-gap: 10px;
+
+
+        /* or */
+        /* gap: 20px; */
+
+    }
+}
