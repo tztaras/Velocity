@@ -369,16 +369,11 @@ FOOTER */
     line-height: 1.1;
     letter-spacing: 4px;
     margin-bottom: 25px;
-
-    /* color: #0e0eec; */
 }
 
 .footer-desc li {
     height: 30px;
     position: relative;
-
-    /* border-bottom: 1px solid #668CAD; */
-
 }
 
 .footer-desc li+li {
@@ -398,8 +393,6 @@ FOOTER */
 
 }
 
-.container {}
-
 .footer-container {
     display: flex;
     justify-content: space-between;
@@ -412,13 +405,7 @@ FOOTER */
 
 }
 
-.footer-about {}
 
-.useful-links {}
-
-.social {
-    /* border: 1px solid black; */
-}
 
 .social li::after {
     width: calc(100% - 30px);
