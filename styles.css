@@ -351,13 +351,16 @@ FOOTER */
 
 .footer {}
 
-.footer-desc {}
+.footer-desc {
+    padding: 35px 0;
+}
 
 .footer-desc a {
     font-size: 13px;
     line-height: 1.5;
     color: #668CAD;
-    margin-bottom: 12px;
+    padding-top: 5px;
+
 
 }
 
@@ -379,7 +382,8 @@ FOOTER */
 }
 
 .footer-desc li+li {
-    margin-top: 6px;
+    margin-top: 4px;
+
 }
 
 .footer-desc li::after {
@@ -411,6 +415,10 @@ FOOTER */
 .footer-about {}
 
 .useful-links {}
+
+.social {
+    /* border: 1px solid black; */
+}
 
 .social li::after {
     width: calc(100% - 30px);
