@@ -284,6 +284,7 @@ h4 {
     display: flex;
     justify-content: space-between;
 
+
 }
 
 .services .card {
@@ -434,6 +435,8 @@ FOOTER */
 
 
 
+
+
 @media (max-width:960px) {
     .about .cards-wrapper {
         flex-wrap: wrap;
@@ -441,9 +444,15 @@ FOOTER */
         row-gap: 10px;
 
 
-        /* or */
-        /* justify-content: center;
-        gap: 20px; */
+
+
+    }
+}
+
+
+@media (max-width:400px) {
+    .header-nav li+li {
+        margin-left: 25px;
 
     }
 }
