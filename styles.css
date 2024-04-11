@@ -296,12 +296,6 @@ h4 {
 /* TAB SECTION  */
 /* TAB SECTION  */
 
-
-.tab {}
-
-.tabs {}
-
-
 .tabs-nav {
     /* border: 1px solid black; */
     margin-bottom: 50px;
@@ -349,8 +343,6 @@ h4 {
 FOOTER
 FOOTER */
 
-.footer {}
-
 .footer-desc {
     padding: 35px 0;
 }
@@ -360,8 +352,6 @@ FOOTER */
     line-height: 1.5;
     color: #668CAD;
     padding-top: 5px;
-
-
 }
 
 .footer-desc h4 {
