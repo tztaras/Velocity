@@ -451,6 +451,11 @@ FOOTER */
 
 
 @media (max-width:400px) {
+
+    body {
+        font-size: 12px;
+    }
+
     .header-nav li+li {
         margin-left: 25px;
     }
@@ -470,5 +475,16 @@ FOOTER */
     .welcome-links *+* {
         margin-top: 20px;
         /* margin-left: 0; */
+    }
+}
+
+
+@media (max-width:340px) {
+    .about .card {
+        max-width: 270px;
+    }
+
+    .cards-wrapper h4 {
+        font-size: 16px;
     }
 }
