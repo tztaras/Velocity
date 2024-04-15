@@ -395,11 +395,13 @@ FOOTER */
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
 
 }
 
 .footer-container>* {
     width: 30%;
+
 
 }
 
@@ -447,6 +449,20 @@ FOOTER */
 
 
     }
+}
+
+@media (max-width:790px) {
+
+
+    .footer-container {
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+
+    .footer-container>* {
+        min-width: 260px;
+    }
+
 }
 
 @media (max-width:650px) {
