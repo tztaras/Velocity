@@ -454,6 +454,10 @@ FOOTER */
         padding: 40px 0;
     }
 
+    .tabs-item h4 {
+        font-size: 25px;
+    }
+
     .title-wrapper,
     .tabs-nav {
         margin-bottom: 30px;
