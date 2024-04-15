@@ -452,6 +452,14 @@ FOOTER */
 }
 
 @media (max-width:790px) {
+    .common-section {
+        padding: 40px 0;
+    }
+
+    .title-wrapper,
+    .tabs-nav {
+        margin-bottom: 30px;
+    }
 
 
     .footer-container {
@@ -470,20 +478,11 @@ FOOTER */
 }
 
 @media (max-width:650px) {
-    .common-section {
-        padding: 40px 0;
-    }
+
 
     .tabs-item h4 {
         font-size: 25px;
     }
-
-    .title-wrapper,
-    .tabs-nav {
-        margin-bottom: 30px;
-    }
-
-
 
     .tabs-nav button {
         display: block;
@@ -501,13 +500,13 @@ FOOTER */
 
 @media (max-width:600px) {
 
-    .common-section {
+    /* .common-section {
         padding: 40px 0;
-    }
+    } */
 
-    .title-wrapper {
+    /* .title-wrapper {
         margin-bottom: 30px;
-    }
+    } */
 
 
     .services .cards-wrapper {
