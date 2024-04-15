@@ -449,7 +449,43 @@ FOOTER */
     }
 }
 
+@media (max-width:650px) {
+    .common-section {
+        padding: 40px 0;
+    }
+
+    .title-wrapper,
+    .tabs-nav {
+        margin-bottom: 30px;
+    }
+
+
+
+    .tabs-nav button {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 23px;
+        line-height: normal;
+
+    }
+
+    .tabs-nav button+button {
+        margin-left: auto;
+        margin-top: 10px;
+    }
+}
+
 @media (max-width:600px) {
+
+    .common-section {
+        padding: 40px 0;
+    }
+
+    .title-wrapper {
+        margin-bottom: 30px;
+    }
+
+
     .services .cards-wrapper {
         /* display: flex; */
         flex-direction: column;
@@ -499,5 +535,9 @@ FOOTER */
 
     .cards-wrapper h4 {
         font-size: 16px;
+    }
+
+    .services .link-more {
+        font-size: 14px;
     }
 }
