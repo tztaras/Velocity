@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+:root {
+    --logo: #69B9FF;
+}
 
 body {
     font-family: "Open Sans", sans-serif;
@@ -78,7 +81,9 @@ p {
     z-index: 100;
 
     background-color: aliceblue;
-    box-shadow: 0 0 4px rgb(207, 207, 207);
+    /* background: linear-gradient(180deg, aliceblue, 90%, rgb(233, 233, 233)); */
+    box-shadow: inset 0px 15px 10px -20px rgba(197, 197, 197, 0.836),
+        inset 0px -15px 10px -20px rgba(197, 197, 197, 0.836);
 
 
 }
@@ -93,7 +98,7 @@ p {
 .logo {
     font-size: 25px;
     line-height: 1;
-    color: #69B9FF;
+    color: var(--logo);
     letter-spacing: 4px;
     text-transform: uppercase;
 
