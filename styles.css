@@ -82,7 +82,8 @@ p {
 
     background-color: aliceblue;
     /* background: linear-gradient(180deg, aliceblue, 90%, rgb(233, 233, 233)); */
-    box-shadow: inset 0px 15px 10px -20px rgba(197, 197, 197, 0.836),
+    box-shadow:
+        inset 0px 15px 10px -20px rgba(197, 197, 197, 0.836),
         inset 0px -15px 10px -20px rgba(197, 197, 197, 0.836);
 
 
