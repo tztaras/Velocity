@@ -15,18 +15,21 @@ function showTab(index) {
 
     tabButtons[index].classList.add('active');
     tabItems[index].classList.remove('hide');
-}
+};
+
+hideTabs();
+showTab(0);
 
 
 
-// tabButtons.forEach(
-//     (button, index) => button.addEventListener('click', () => {
-//         hideTabs();
-//         showTab(index);
-//     }));
 tabButtons.forEach(
-    (button, index) => button.onclick = () => {
+    (button, index) => button.addEventListener('click', () => {
         hideTabs();
         showTab(index);
-    });
+    }));
+// tabButtons.forEach(
+//     (button, index) => button.onclick = () => {
+//         hideTabs();
+//         showTab(index);
+//     });
 

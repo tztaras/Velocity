@@ -335,6 +335,21 @@ h4 {
     background-color: #2e80b6;
 }
 
+.tabs-item {
+    animation: showpic 1s;
+}
+
+@keyframes showpic {
+    0% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
 .tabs-item img {
     margin-bottom: 15px;
 }
