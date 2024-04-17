@@ -37,10 +37,17 @@ tabButtons.forEach(
 // anchors
 // anchors
 
-// const anchors = document.querySelectorAll('.header-nav a');
-// console.log(anchors);
-// anchors.forEach(anchrs => {
-//     anchrs.addEventListener('click', function (event) {
-//         event.preventDefault(); //блокування дії за замовчуванням
-//     })
-// })
+const anchors = document.querySelectorAll('.header-nav a');
+console.log(anchors);
+anchors.forEach(anchrs => {
+    anchrs.addEventListener('click', function (event) {
+        event.preventDefault(); //блокування дії за замовчуванням
+
+        const id = anchrs.getAttribute('href');
+        console.log(id);
+        console.dir(id);
+
+        const elem = document.querySelector(id);
+        console.log(elem);
+    })
+})
