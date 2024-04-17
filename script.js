@@ -17,9 +17,16 @@ function showTab(index) {
     tabItems[index].classList.remove('hide');
 }
 
-// showTab(1);
 
-tabButtons.forEach((button, index) => button.addEventListener('click', () => {
-    hideTabs();
-    showTab(index);
-}))
+
+// tabButtons.forEach(
+//     (button, index) => button.addEventListener('click', () => {
+//         hideTabs();
+//         showTab(index);
+//     }));
+tabButtons.forEach(
+    (button, index) => button.onclick = () => {
+        hideTabs();
+        showTab(index);
+    });
+
