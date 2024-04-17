@@ -22,14 +22,25 @@ showTab(0);
 
 
 
-tabButtons.forEach(
-    (button, index) => button.addEventListener('click', () => {
-        hideTabs();
-        showTab(index);
-    }));
 // tabButtons.forEach(
-//     (button, index) => button.onclick = () => {
+//     (button, index) => button.addEventListener('click', () => {
 //         hideTabs();
 //         showTab(index);
-//     });
+//     }));
+tabButtons.forEach(
+    (button, index) => button.onclick = () => {
+        hideTabs();
+        showTab(index);
+    });
 
+// anchors
+// anchors
+// anchors
+
+// const anchors = document.querySelectorAll('.header-nav a');
+// console.log(anchors);
+// anchors.forEach(anchrs => {
+//     anchrs.addEventListener('click', function (event) {
+//         event.preventDefault(); //блокування дії за замовчуванням
+//     })
+// })
