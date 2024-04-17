@@ -2,6 +2,7 @@
 
 :root {
     --logo: #69B9FF;
+    --bg-active: #2e80b6;
 }
 
 body {
@@ -324,6 +325,7 @@ h4 {
     background-color: #92A0AD;
     border-radius: 4px;
     padding: 1px 30px;
+    transition: background-color 1s;
 
 }
 
@@ -332,11 +334,15 @@ h4 {
 }
 
 .tabs-nav button.active {
-    background-color: #2e80b6;
+    background-color: var(--bg-active);
 }
 
+/* .tabs-nav button:hover {
+    background-color: var(--hover);
+} */
+
 .tabs-item {
-    animation: showpic 1s;
+    animation: showpic 3s;
 }
 
 @keyframes showpic {
