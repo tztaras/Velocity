@@ -49,5 +49,10 @@ anchors.forEach(anchrs => {
 
         const elem = document.querySelector(id);
         console.log(elem);
-    })
-})
+
+        window.scroll({
+            top: elem.offsetTop - 65, // -65 px зверху щоб шапка не перекривала about velocity
+            behavior: 'smooth'
+        });
+    });
+});

@@ -462,6 +462,29 @@ FOOTER */
     padding: 40px 0;
 }
 
+/* For WebKit (Safari, Google Chrome etc) */
+::-webkit-scrollbar {
+    width: 10px;
+
+    /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: aliceblue;
+    /* color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--logo);
+    border-radius: 4px;
+    /* color of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--bg-active);
+    /* color of the thumb on hover */
+}
+
 
 
 
