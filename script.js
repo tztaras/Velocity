@@ -1,7 +1,7 @@
-const tabButtons = document.querySelectorAll('.tabs-nav button');
+const tabButtons = document.querySelectorAll('.tabs_nav button');
 console.log(tabButtons);
 
-const tabItems = document.querySelectorAll('.tabs-item');
+const tabItems = document.querySelectorAll('.tabs_item');
 console.log(tabItems);
 
 
@@ -37,7 +37,7 @@ tabButtons.forEach(
 // anchors
 // anchors
 
-const anchors = document.querySelectorAll('.header-nav a');
+const anchors = document.querySelectorAll('.header_nav a');
 console.log(anchors);
 anchors.forEach(anchrs => {
     anchrs.addEventListener('click', function (event) {
