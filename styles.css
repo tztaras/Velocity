@@ -142,7 +142,6 @@ p {
 /* main */
 /* main */
 
-
 .welcome {
     color: #fff;
     min-height: 600px;
@@ -153,14 +152,10 @@ p {
     text-transform: uppercase;
     text-align: center;
     padding: 195px 0;
-
-
     background-image: url('/img/velocity-bg.jpg');
     background-color: #242730;
     background-size: cover;
     background-position: center;
-
-
 }
 
 .welcome_title {
